@@ -20,8 +20,8 @@ SET FOREIGN_KEY_CHECKS = 0;
 -- ----------------------------
 -- Table structure for admin
 -- ----------------------------
-DROP TABLE IF EXISTS `admin`;
-CREATE TABLE `admin`  (
+DROP TABLE IF EXISTS `admin_copy1`;
+CREATE TABLE `admin_copy1`  (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `num` int(11) NOT NULL,
   `name` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
@@ -34,7 +34,7 @@ CREATE TABLE `admin`  (
 -- ----------------------------
 -- Records of admin
 -- ----------------------------
-INSERT INTO `admin` VALUES (1, 1001, '管理员', '男', '123456', '123456');
+INSERT INTO `admin_copy1` VALUES (1, 1001, '管理员', '男', '123456', '123456');
 
 -- ----------------------------
 -- Table structure for allot
