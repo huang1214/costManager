@@ -1,0 +1,47 @@
+﻿.bg {
+	background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+.blog-bg {
+     position: relative;
+    margin: 65px auto 25px auto;
+     /*margin: 20px auto;*/
+ }
+
+.bg_a {background-image: url("../images/1m.jpg");}
+.bg_b {background-image: url("../images/2m.jpg");}
+.bg_c {background-image: url("../images/3m.jpg");}
+.bg_d {background-image: url("../images/4m.jpg");}
+.bg_e {background-image: url("../images/5m.jpg");}
+
+@media (min-width: 768px) {
+    .bg_a {background-image: url("../images/1m.jpg");}
+    .bg_b {background-image: url("../images/2m.jpg");}
+    .bg_c {background-image: url("../images/3m.jpg");}
+    .bg_d {background-image: url("../images/4m.jpg");}
+    .bg_e {background-image: url("../images/5m.jpg");}
+}
+.video_div{
+    position: relative;
+    width: 65%;
+    height: 18%;
+    display: inline-block;
+}
+.video_div >img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.video_div >video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.my-video-dimensions{
+    width: 100%;
+    height: 100%;
+}
